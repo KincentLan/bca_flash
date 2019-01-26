@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+.head {
+    background: -webkit-linear-gradient(left, #514A9D , #24C6DC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#514A9D , #24C6DC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #514A9D , #24C6DC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #514A9D , #24C6DC); /* Standard syntax */
+    height: 900%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.head h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.head h1{
+    -webkit-animation: color-change 12s infinite;
+    -moz-animation: color-change 12s infinite;
+    -o-animation: color-change 12s infinite;
+    -ms-animation: color-change 12s infinite;
+    animation: color-change 12s infinite;
+    font-family: "Monoton", cursive;
+    font-size: 750%;
+    text-align: center;
+}
+
+.projects h1 {
+    font-size: 275%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 5%;
+    margin-bottom:0%;
+}
+
+.projects h2 {
+    font-size: 150%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.projects h3 {
+    font-size: 135%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.projects h4 {
+    font-size: 100%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.project-sections li {
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 4%;
+    width: 36%;
+    vertical-align: top;
+    margin-left: 6%;
+}
+
+#middle {
+    margin-left: 4%;
+}
+@-webkit-keyframes color-change {
+    0% {
+        color: #ffA500;
+    }
+    25%{
+        color: #E1B74C;
+    }
+    50% {
+        color: #D2691E;
+    }
+    75% {
+        color: #ff3232;
+    }
+    100% {
+        color: #ffA500;
+    }
+}
+
+@-moz-keyframes color-change {
+    0% {
+        color: #ffA500;
+    }
+    25%{
+        color: #E1B74C;
+    }
+    50% {
+        color: #D2691E;
+    }
+    75% {
+        color: #ff3232;
+    }
+    100% {
+        color: #ffA500;
+    }
+}
+
+@-ms-keyframes color-change {
+    0% {
+        color: #ffA500;
+    }
+    25%{
+        color: #E1B74C;
+    }
+    50% {
+        color: #D2691E;
+    }
+    75% {
+        color: #ff3232;
+    }
+    100% {
+        color: #ffA500;
+    }
+}
+
+@-o-keyframes color-change {
+    0% {
+        color: #ffA500;
+    }
+    25%{
+        color: #E1B74C;
+    }
+    50% {
+        color: #D2691E;
+    }
+    75% {
+        color: #ff3232;
+    }
+    100% {
+        color: #ffA500;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: #ffA500;
+    }
+    25%{
+        color: #E1B74C;
+    }
+    50% {
+        color: #D2691E;
+    }
+    75% {
+        color: #ff3232;
+    }
+    100% {
+        color: #ffA500;
+    }
+}
+
+.fa-github {
+    color: black;
+    -webkit-transition: .5s;
+}
+
+.fa-github:hover {
+    color: #538cc6;
+    font-size: 110%;
+}
